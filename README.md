@@ -21,7 +21,7 @@ Texto bíblico baseado na edição **Almeida 1911 (Domínio Público)**, com atu
 2. Clique com o **botão direito** sobre o arquivo **`Abrir_Biblia.sh`** e escolha **Executar como Programa**.
 3. A janela de leitura abrirá automaticamente.
 
-*(Opcional — via terminal: abra o terminal dentro da pasta e execute `./motor.biblia` ou recompile com `gcc -O2 motor.biblia.c -o motor.biblia`).*
+*(Opcional — via terminal: abra o terminal dentro da pasta e execute `./motor.biblia` ou recompile com `gcc -O2 terminal.c kernel/biblia_kernel.c -o motor.biblia`).*
 
 ---
 
@@ -30,4 +30,4 @@ Texto bíblico baseado na edição **Almeida 1911 (Domínio Público)**, com atu
 **Sim, 100% seguro.** Este é um projeto independente, gratuito e sem fins lucrativos, publicado em código aberto no **GitHub** (plataforma de referência mundial utilizada por desenvolvedores).
 
 - **Por que alguns sistemas exibem alerta de "aplicativo não reconhecido"?** Sistemas operacionais modernos (Windows, Android, macOS e algumas distribuições Linux) emitem avisos preventivos para qualquer programa que não possua um certificado comercial pago nem esteja publicado nas lojas oficiais (Microsoft Store, Google Play ou App Store).
-- **Transparência total (Código Aberto):** Todo o código-fonte deste aplicativo (`motor.biblia.c`) e os textos dos 66 livros estão abertos e visíveis nesta página. Qualquer técnico ou programador pode inspecionar o código e confirmar que não há coleta de dados, rastreamento ou arquivos maliciosos.
+- **Transparência total (Código Aberto):** Todo o código-fonte deste aplicativo (`terminal.c` e a pasta `kernel`) e os textos dos 66 livros estão abertos e visíveis nesta página. Qualquer técnico ou programador pode inspecionar o código e confirmar que não há coleta de dados, rastreamento ou arquivos maliciosos.
